@@ -27,12 +27,12 @@ If a dependency threshold is submitted as `0`, it logically implies no dependenc
 
 ## 🛠️ How to Run the Application locally
 
-### Backend Setup
-1. Open a terminal and install dependencies:
-   `pip install fastapi uvicorn sqlalchemy`
-2. Run the server:
+#### Backend Setup
+1. Navigate to the backend folder: `cd backend`
+2. Install all dependencies at once:
+   `pip install -r requirements.txt`
+3. Run the server:
    `python -m uvicorn main:app --reload`
-3. *Note: The SQLite database (`tracker.db`) will auto-generate on the first run. Interactive API docs are available at `http://127.0.0.1:8000/docs`.*
 
 ### Frontend Setup
 1. Open a second terminal and navigate to the frontend folder:
